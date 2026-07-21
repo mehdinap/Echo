@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <group
+        android:pivotX="54"
+        android:pivotY="54"
+        android:scaleX="0.75"
+        android:scaleY="0.75"
+        android:translateY="5">
+
+        <!-- Echo waveform -->
+        <path
+            android:fillColor="@android:color/transparent"
+            android:strokeColor="#4EA086"
+            android:strokeWidth="7"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:pathData="
+                M14,55
+                C22,55 27,56 32,47
+                C35,41 37,37 40,42
+                C43,47 43,62 46,67
+                C47,69 49,68 50,62
+                L54,19
+                C55,12 57,12 58,19
+                L64,62
+                C65,70 69,76 75,76
+                C83,76 88,69 88,59
+                C88,54 85,51 81,51" />
+
+        <!-- Person's head -->
+        <path
+            android:fillColor="#4EA086"
+            android:pathData="
+                M76,30
+                C71.58,30 68,33.58 68,38
+                C68,42.42 71.58,46 76,46
+                C80.42,46 84,42.42 84,38
+                C84,33.58 80.42,30 76,30
+                Z" />
+
+    </group>
+
+</vector>

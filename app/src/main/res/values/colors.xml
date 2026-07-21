@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Only the launcher/splash need XML colors. Everything Compose draws comes from EchoTheme. -->
+    <color name="ic_launcher_background">#4B58C8</color>
+    <color name="splash_background">#F8F7FB</color>
+</resources>

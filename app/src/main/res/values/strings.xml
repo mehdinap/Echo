@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Echo</string>
+
+    <!-- Bottom navigation -->
+    <string name="tab_home">Home</string>
+    <string name="tab_search">Search</string>
+    <string name="tab_downloads">Download</string>
+    <string name="tab_playlists">Playlists</string>
+    <string name="tab_profile">Profile</string>
+
+    <!-- Top bar -->
+    <string name="cd_notifications">Notifications</string>
+    <string name="cd_settings">Settings</string>
+    <string name="cd_profile_picture">Profile picture</string>
+    <string name="cd_back">Back</string>
+    <string name="cd_more">More</string>
+
+    <!-- Home -->
+    <string name="home_picks_today">Today\'s picks</string>
+    <string name="home_liked_songs">Liked songs</string>
+    <string name="home_recently_played">Recently played</string>
+    <string name="home_my_playlists">My playlists</string>
+    <string name="home_top_artists">Top artists</string>
+    <string name="home_most_popular">Most popular</string>
+    <string name="home_newest">Newest</string>
+    <string name="home_world_playlists">Global playlists</string>
+    <string name="home_local_playlists">Local playlists</string>
+
+    <!-- Search -->
+    <string name="search_hint">Songs, artists, playlists</string>
+    <string name="search_recent">Recent searches</string>
+    <string name="search_clear_history">Clear history</string>
+    <string name="filter_all">All</string>
+    <string name="filter_songs">Songs</string>
+    <string name="filter_artists">Artists</string>
+    <string name="cd_remove">Remove</string>
+
+    <!-- Downloads -->
+    <string name="downloads_title">Downloads</string>
+    <string name="downloads_sort_title">By title</string>
+    <string name="downloads_sort_artist">By artist</string>
+    <string name="downloads_sort_date">By date added</string>
+    <string name="download_started">Download started</string>
+    <string name="download_removed">Removed from downloads</string>
+    <string name="premium_required">Downloads are a Premium feature</string>
+    <string name="premium_upgrade">Upgrade</string>
+
+    <!-- Playlists -->
+    <string name="playlists_world">World music</string>
+    <string name="playlists_local">Local music</string>
+    <string name="playlists_mine">Your playlists</string>
+    <string name="playlist_new">New playlist</string>
+    <string name="playlist_song_count">%1$d songs</string>
+
+    <!-- Profile -->
+    <string name="profile_premium">Premium</string>
+    <string name="profile_free">Free account</string>
+    <string name="profile_get_premium">Get Premium</string>
+    <string name="profile_renew">Renew Premium</string>
+    <string name="profile_following">Following</string>
+    <string name="profile_change_avatar">Change photo</string>
+    <string name="profile_upgraded">You\'re Premium now. Downloads are unlocked.</string>
+    <string name="profile_processing">Processing…</string>
+
+    <!-- Player -->
+    <string name="cd_play">Play</string>
+    <string name="cd_pause">Pause</string>
+    <string name="cd_next">Next</string>
+    <string name="cd_previous">Previous</string>
+    <string name="cd_shuffle">Shuffle</string>
+    <string name="cd_repeat">Repeat</string>
+    <string name="cd_like">Like</string>
+    <string name="cd_download">Download</string>
+    <string name="cd_share">Share</string>
+    <string name="cd_collapse">Collapse player</string>
+    <string name="player_speed">Speed</string>
+    <string name="player_sleep_timer">Sleep timer</string>
+    <string name="player_sleep_off">Off</string>
+    <string name="player_sleep_minutes">%1$d min</string>
+    <string name="player_sleep_set">Playback stops in %1$d minutes</string>
+    <string name="player_queue">Queue</string>
+    <string name="notification_channel_playback">Playback</string>
+    <string name="play_all">Play all</string>
+    <string name="shuffle_all">Shuffle</string>
+
+    <!-- Social / chat -->
+    <string name="chat_title">Messages</string>
+    <string name="chat_hint">Message</string>
+    <string name="chat_send">Send</string>
+    <string name="chat_typing">is typing…</string>
+    <string name="chat_online">Online</string>
+    <string name="chat_offline">Offline</string>
+    <string name="chat_share_song">Share song</string>
+    <string name="chat_shared_a_song">Shared a song</string>
+    <string name="follow">Follow</string>
+    <string name="unfollow">Unfollow</string>
+    <string name="followers_count">%1$d followers</string>
+    <string name="public_playlists">Public playlists</string>
+    <string name="find_friends">Find friends</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_language_en">English</string>
+    <string name="settings_language_fa">فارسی</string>
+    <string name="settings_theme">Theme</string>
+    <string name="settings_theme_light">Light</string>
+    <string name="settings_theme_dark">Dark</string>
+    <string name="settings_theme_system">System</string>
+    <string name="settings_font_size">Font size</string>
+    <string name="settings_logout">Log out</string>
+
+    <!-- Auth -->
+    <string name="auth_login">Log in</string>
+    <string name="auth_register">Create account</string>
+    <string name="auth_username">Username</string>
+    <string name="auth_password">Password</string>
+    <string name="auth_display_name">Display name</string>
+    <string name="auth_switch_to_register">New here? Create an account</string>
+    <string name="auth_switch_to_login">Already have an account? Log in</string>
+    <string name="auth_failed">Username or password is wrong</string>
+    <string name="auth_registration_success">Account created successfully. Please log in.</string>
+
+    <!-- Empty / error states -->
+    <string name="empty_playlist_title">Nothing here yet</string>
+    <string name="empty_playlist_body">Add a song and it shows up here.</string>
+    <string name="empty_search_title">No matches</string>
+    <string name="empty_search_body">Check the spelling or try a shorter word.</string>
+    <string name="empty_downloads_title">No downloads</string>
+    <string name="empty_downloads_body">Downloaded songs play without a connection.</string>
+    <string name="empty_likes_title">No liked songs</string>
+    <string name="empty_likes_body">Tap the heart on any song to save it here.</string>
+    <string name="error_offline_title">You\'re offline</string>
+    <string name="error_offline_body">Reconnect to load new songs. Downloads still play.</string>
+    <string name="error_generic">Something went wrong.</string>
+    <string name="retry">Retry</string>
+</resources>
